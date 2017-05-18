@@ -7,7 +7,7 @@ import yaml
 import pprint
 
 import os
-print()
+#print()
 path = os.path.dirname(os.path.abspath(__file__))
 with open(path + "/config.yml", 'r') as ymlfile:
     cfg = yaml.load(ymlfile)
